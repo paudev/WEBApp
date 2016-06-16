@@ -9,9 +9,9 @@ $capsule = new Capsule();
 $capsule -> addConnection([
 	'driver' => 'mysql',
 	'host' => 'localhost',
-	'username' => 'root',
+	'username' => '',
 	'password' => '',
-	'database' => 'webapp',
+	'database' => '',
 	'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => ''
@@ -19,10 +19,10 @@ $capsule -> addConnection([
 
 $capsule -> addConnection([
 	'driver' => 'mysql',
-	'host' => 'vazu-cor-msq001.cloudapp.net',
-	'username' => 'castjos',
-	'password' => 'Welcome123',
-	'database' => 'jiradb',
+	'host' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => ''
